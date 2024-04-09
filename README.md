@@ -37,11 +37,11 @@ if (for_astro.getElapsedTime().asSeconds() >= 1.0f)
 Of course each projectile has damage, and each asteroid has a number of XP. The damage of a projectile depends on the type of aircraft, and the XP of an asteroid depends on its type. You can see all this by looking at the class declaration. 
 We are greeted by an initial menu with brief information, after which the gameplay immediately begins.
 
-![Start](./1.jpg)
+![Start](./Photos/1.jpg)
 
 Next we see the number of asteroids destroyed, the score we have while doing so and the amount of our health. Also, our aircraft appears on the map, it has the most primitive control - WASD. Shoot on the "Spacebar".
 
-![Game](./2.jpg)
+![Game](./Photos/2.jpg)
 
 If an asteroid has a critical amount of health, it explodes, so we can see the corresponding sprite. The mechanism is also quite simple - due to the fact that the asteroid and the projectile are of the same type, it is much easier to work with them. Going into the loop - we look for correlations between projectiles and asteroids, then, if there is a correlation, we remove XP from the asteroid while destroying the projectile. If the asteroid has no XP left - we remove it and a sprite appears in its place for 1 second.
 
@@ -83,11 +83,11 @@ for (auto it = projectiles.begin(); it != projectiles.end();)
     }
 }
 ```
-![Dead](./3.jpg)
+![Dead](./Photos/3.jpg)
 
 The game stops if you lose all your health, health is lost if the asteroid reaches the bottom edge.
 
-![End](./4.jpg)
+![End](./Photos.4.jpg)
 
 
 
