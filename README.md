@@ -89,7 +89,24 @@ The game stops if you lose all your health, health is lost if the asteroid reach
 
 ![End](./Photos/4.jpg)
 
+## Technologies and features
+Project is created with:
+* SFML-2.6.0 for for visuals and game logic
+* Audacity to adjust and change the sound
+* Photoshop for photo correction
+* Class vectors and their interaction
+* The tears and frustration of my university professors
 
+## Setup
+
+To use my game you need to create a folder, putting there everything that is in the Music and Photos folders. 
+Then you should type this script into the terminal: 
+```
+sudo apt-get update
+sudo apt-get install libsfml-dev
+```
+Next, you can simply copy the code and paste it into a .cpp file created in your folder.
+It should work ;)
 
 
 
