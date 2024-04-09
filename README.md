@@ -87,7 +87,7 @@ for (auto it = projectiles.begin(); it != projectiles.end();)
 
 The game stops if you lose all your health, health is lost if the asteroid reaches the bottom edge.
 
-![End](./Photos.4.jpg)
+![End](./Photos/4.jpg)
 
 
 
