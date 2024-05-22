@@ -2,7 +2,7 @@
 This is endless, singleplayer Arcade-shooting game.
 ## Table of contents
 * [General info](#general-info)
-* [Technologies and features](#technologies)
+* [Technologies and features](#technologies-and-features)
 * [Setup](#setup)
 
 ## General info
